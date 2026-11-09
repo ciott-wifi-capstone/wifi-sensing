@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "date": "2026-11-01",
+  "max_packets_per_state": 768,
+  "prefix_packets": 64,
+  "minimum_packets": 128,
+  "development": [
+    0,
+    12,
+    21,
+    30,
+    "office_R1"
+  ],
+  "evaluation": [
+    3,
+    15,
+    24,
+    33,
+    "office_R2"
+  ],
+  "never_unseen_test": true,
+  "gate_delay_p90_ns": 5.0,
+  "gate_phase_p90_deg": 15.0,
+  "gate_prediction_corr": 0.9,
+  "packet_correlation": 0.9,
+  "prediction_stride": 16,
+  "prediction_masks": [
+    "leave_chain_1",
+    "leave_chain_2",
+    "leave_chain_3",
+    "leave_lower_frequency_block",
+    "leave_middle_frequency_block",
+    "leave_upper_frequency_block"
+  ],
+  "time_blocks": 4,
+  "music_q_baseline": 3,
+  "music_q_sensitivity": [
+    2,
+    3,
+    4
+  ],
+  "aoa_mae_target_deg": 8.0,
+  "coverage_target": 0.8,
+  "all_four_points_required": true,
+  "human_path_requires": [
+    "hardware_angle_reference_valid",
+    "human_association_valid",
+    "unambiguous_output"
+  ],
+  "cross_record_reference": "Only use verified same-scene same-session Office R1; primary D unavailable pending session/scene validation. Never select a per-position reference by test label.",
+  "cross_state_phase_gate_p90_deg": 15.0,
+  "cross_state_delay_gate_p90_ns": 5.0,
+  "cross_state_prediction_corr": 0.9,
+  "no_joint_array_until_all_gates_pass": true,
+  "no_gt_in_estimators": true,
+  "raw_baseline_preserved": true,
+  "synthetic_weak_human_distortion_limit": 0.05,
+  "geometry_source": "User confirmed global TX=(0,0), RX=(3.65,0); Office distances unknown",
+  "output_status": "diagnostic_only_until_hardware_and_human_path_gates_pass"
+}

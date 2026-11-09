@@ -1,0 +1,8 @@
+{
+  "local_intel4_capture.py": "8530b3b2c62b71dbc56f93d9fd8eb43f311564ac83b01a572c7cd73e38a50fae",
+  "picoscenes_switching.py": "ff031897a2c8bd16054a09fb6392b11d04e059e91f45696b70669cee04438cfb",
+  "picoscenes_stability.py": "990b821ffb2938d0bf699cc015423e55d307c91ea5859c5fcc3b0d516be5950f",
+  "picoscenes_qc.py": "ca3c5bdf9b6b03e6e6208097efdff6730f758f5f9fc37660bd09b97764e731c7",
+  "esp32.py": "faacbe402c2d868faf0e2589d74dac129460eba671ed29c40276dff9a00f2309",
+  "kernel_stream.py": "781a7b977dc815da4bde735d67da6664d8f2c20f1eac0d09a9b8caa255ed5a4e"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "proposed engineering limits, frozen before new validation data",
+  "phase_p90_deg": 15,
+  "return_mean_phase_deg": 10,
+  "minimum_retained_tone_fraction": 0.8,
+  "minimum_valid_packet_fraction": 0.9,
+  "per_G_and_full12_MAE_deg": 5,
+  "per_G_and_full12_P90_deg": 8,
+  "per_direction_MAE_deg": 8,
+  "output_fraction": 0.9,
+  "low_high_difference_deg": 6,
+  "phase_model_order": [
+    "constant",
+    "affine"
+  ],
+  "fitting_ids": [
+    "CAL0_R1"
+  ],
+  "development_ids": [
+    "CAL0_R2"
+  ],
+  "holdout_ids": [
+    "CAL0_R3",
+    "VAL*",
+    "RET*"
+  ],
+  "nominal_min_packets_per_state_per10s": 900,
+  "expected_full_cycles_per10s": 66,
+  "parser": "existing PicoScenes Intel5300 HT40 5230/5240MHz, chain permutation and target MAC checks",
+  "source": "WiCAL II-B, exact spherical propagation adapted to current linear array",
+  "human_status": "not tested by active-source calibration"
+}

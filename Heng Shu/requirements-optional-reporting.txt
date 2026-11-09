@@ -1,0 +1,2 @@
+# Only for historical PDF QA (qa_render.py); not installed/tested in this audit.
+pypdf

@@ -1,0 +1,9 @@
+{
+  "question": "Test New A's G3 empirical-reference and C1 2D peak findings in New B and New C with unchanged settings.",
+  "labels": {"1":"empty_before","2":"person_at_B_or_C","3":"empty_after"},
+  "fixed_methods": "Reuse New A readout, 3-degree full front grid, same run1-only calibration and whitening, time and frequency checks. Pick peaks before joining point coordinates. Compare single G2 and G3, G1-G4 noncoherent fusion, C1 2D order 3. G3 empirical is the prespecified transfer check from A. Original A is development, not an additional validation point.",
+  "physical_geometry": "TX on the left at (0,0); RX array midpoint on the right at (3.65,0); marked (1.64,0) is a floor intersection. Equal-height nominal torso projection. Use per-subarray centres.",
+  "paired_contrast": "For full trips require min(D12,D23)>D13, and summarize four aligned time quarters. No p-values or independent repetitions from quarters. Keep missing states or runs visible.",
+  "reporting": "R1 and R3 reference estimates belong only to their own batch. Empirical phase validation needs both relative-chain pairs to achieve at least 80 percent tone support and <=15 degrees P90 on R3. No template or complex CSI pooling across batches. Lack of R3 precludes recovery, post-empty test, or independent empirical calibration check.",
+  "performance": "Report raw diagnostic errors and signs, including poor or rejected windows, separately from physical human-path errors. A coherent 12-element result requires validated intra- and inter-state references; a four-subarray average remains noncoherent."
+}
