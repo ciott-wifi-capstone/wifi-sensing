@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-09",
+  "checks": [
+    {
+      "check": "public unittest suite",
+      "exit_code": 0,
+      "seconds": 0.61
+    },
+    {
+      "check": "all packaged imports",
+      "exit_code": 0,
+      "seconds": 0.99
+    },
+    {
+      "check": "CLI help replay.py",
+      "exit_code": 0,
+      "seconds": 0.25
+    },
+    {
+      "check": "CLI help retest.py",
+      "exit_code": 0,
+      "seconds": 0.23
+    },
+    {
+      "check": "CLI help run_example.py",
+      "exit_code": 0,
+      "seconds": 0.24
+    },
+    {
+      "check": "CLI help evaluate_results.py",
+      "exit_code": 0,
+      "seconds": 0.09
+    },
+    {
+      "check": "CLI help plot_results.py",
+      "exit_code": 0,
+      "seconds": 0.61
+    },
+    {
+      "check": "CLI help wical/original/background_phase_qc.py",
+      "exit_code": 0,
+      "seconds": 0.22
+    },
+    {
+      "check": "CLI help wical/original/extended_analysis.py",
+      "exit_code": 0,
+      "seconds": 0.24
+    },
+    {
+      "check": "CLI help wical/original/per_subcarrier_calibration.py",
+      "exit_code": 0,
+      "seconds": 0.2
+    },
+    {
+      "check": "public synthetic estimator",
+      "exit_code": 0,
+      "seconds": 0.28
+    },
+    {
+      "check": "measured table evaluator",
+      "exit_code": 0,
+      "seconds": 0.09
+    },
+    {
+      "check": "measured plots",
+      "exit_code": 0,
+      "seconds": 1.09
+    },
+    {
+      "check": "full private raw replay profile",
+      "exit_code": 0,
+      "seconds": 3.48
+    },
+    {
+      "check": "raw replay evaluation profile",
+      "exit_code": 0,
+      "seconds": 0.09
+    },
+    {
+      "check": "full private raw replay native",
+      "exit_code": 0,
+      "seconds": 3.86
+    },
+    {
+      "check": "raw replay evaluation native",
+      "exit_code": 0,
+      "seconds": 0.09
+    }
+  ],
+  "source_and_data_archive_match": true,
+  "public_table_cells_match_source": true,
+  "external_dependencies": [
+    "matplotlib",
+    "numpy"
+  ],
+  "python_modules": 16,
+  "counts": {
+    "sessions": 4,
+    "runs": 12,
+    "raw_frames": 126025,
+    "selected_frames": 82247,
+    "manifest_entries": 144,
+    "manifest_all_match": true,
+    "native_sage_calls": 840,
+    "public_numeric_tables_verified": 14
+  },
+  "note": "Logs retained locally; private identifiers are excluded from public evidence. Native core remains external."
+}

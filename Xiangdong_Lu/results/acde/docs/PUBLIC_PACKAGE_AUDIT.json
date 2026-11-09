@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scan_date": "2026-11-09",
+  "checks": [
+    "personal_windows_path",
+    "private_unix_home",
+    "email",
+    "private_key",
+    "github_token",
+    "aws_key",
+    "private_cloud_link",
+    "windows_sid",
+    "credential_assignment",
+    "nine_digit_identifier",
+    "prohibited_suffixes",
+    "file_size_under_10_MiB"
+  ],
+  "excluded_raw_data": true,
+  "excluded_native_third_party_source": true,
+  "note": "Pattern scan plus file/source review, not a guarantee of all possible secrets. Intended named author retained."
+}

@@ -1,0 +1,5 @@
+# External imports in shipped CLI/module paths: numpy and matplotlib only.
+# Native Widar2 functions are AST-loaded only with an optional external file.
+# Its top-level picos/scipy/MATLAB demo is never imported or included.
+numpy==2.2.6
+matplotlib==3.10.3

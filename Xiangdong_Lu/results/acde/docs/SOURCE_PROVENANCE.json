@@ -1,0 +1,207 @@
+{
+  "selection": "ACDE teacher package, 2026-11-05; verified against accessible working tree and archive, not a Git checkout",
+  "original_fit_provenance": {
+    "native_core_calls": {
+      "sage_const_build": 1,
+      "sage_signal": 1680,
+      "sage_expectation": 1680,
+      "sage_maximization": 1680,
+      "sage_sfg": 840
+    },
+    "frozen_before_geometry": {
+      "policy_before_fit.json": "24aacf61886cce88bac92e22d832ca023128fd3dc88dad5285d29e23b9f41cfb",
+      "blind_predictions.csv": "42362a815bea283dee0d9eef2687f67f393c1691d7dd3746c319fbdd7c7e95af",
+      "spectra.csv": "99cec2796851592ce6a93f6558948c53eecd4920e97bdf3ed6c8b98f4b0a16be",
+      "negative_control.csv": "3061ff11ad3fc7c3b534e7aecd183dd9b2057631ba0059086e0343b9b1d5f00c",
+      "native_sage.csv": "60767a4b8d976d0826128792c6cdc2ab5cc93e1c9504cd502e3d6f8cb4825da3"
+    },
+    "script_sha256": "54c35a537299f75dc94b9bd26bb7b6c998b5b6fc26fac824de900fc69c77b44a"
+  },
+  "files": [
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/replay.py",
+      "source_sha256": "979af44d815522d10f5011d87f1aed3779d715ac9f5ba34dcc82b657804c8e1d",
+      "destination": "src/replay.py",
+      "packaged_sha256": "8a3948bcd29f8c84878e84857762c7859fe69306815aa63da22e801ddb04f360",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/retest.py",
+      "source_sha256": "54c35a537299f75dc94b9bd26bb7b6c998b5b6fc26fac824de900fc69c77b44a",
+      "destination": "src/retest.py",
+      "packaged_sha256": "5675bdc940a3052e8cb8e0ad8e6eef9e6ef35ddbb76c2f84e81d562b643ea346",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/compare.py",
+      "source_sha256": "214c9157bb4f2de8b1f84303111ff30d1771c319e29c1a2efd67c58e2790344c",
+      "destination": "src/compare.py",
+      "packaged_sha256": "21580a727bc269992b605c86c6b10312687a68af559a37b353cb4034aa7362e1",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/wical/common.py",
+      "source_sha256": "819ae3505a1d386a9ec5ee54333714d26b6933e5d1aa47d466a332d2bce5f819",
+      "destination": "src/wical/common.py",
+      "packaged_sha256": "819ae3505a1d386a9ec5ee54333714d26b6933e5d1aa47d466a332d2bce5f819",
+      "modified": false
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/wical/estimate.py",
+      "source_sha256": "46cecb0edece9a6727df4ea2788fa2aa3bcb0d82f3aa51453ac4a0a14228a5dc",
+      "destination": "src/wical/estimate.py",
+      "packaged_sha256": "23ae7cb4d36c6eae22d19114822e937f9b2371817a5bf533e0543717ffa13847",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/wical/original/background_phase_qc.py",
+      "source_sha256": "97f26450eec446f44b69b36b953ef05773917fff459da0300b43e8f2e3548875",
+      "destination": "src/wical/original/background_phase_qc.py",
+      "packaged_sha256": "36ad7d08b79b61f8b0301b1643d8f736f84056fc9aea7a09b79a2d6b5ffa2c86",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/wical/original/extended_analysis.py",
+      "source_sha256": "ef7dfcf5b97bf7490a2b682f8e6f2ba56da547b33a3574e3909a297249d4d3d1",
+      "destination": "src/wical/original/extended_analysis.py",
+      "packaged_sha256": "c1f2a8408cb2217b5e8c241412a74c510d020436dc093995a104380a4fa76e39",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/wical/original/per_subcarrier_calibration.py",
+      "source_sha256": "c0db2ad5c8167d085b093fecaa3ba8aa3ae1307a40149d6363e5c0b8b793559e",
+      "destination": "src/wical/original/per_subcarrier_calibration.py",
+      "packaged_sha256": "1ed7e3ac595603df05e03c55f87dd41976cd4dd957fd7b8d9b2e681f8bc89a42",
+      "modified": true
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/code/wical/original/sage_adapter.py",
+      "source_sha256": "916478095c5a6027ef95137a395d0201af7629a9346c057af9e6478c097af4e1",
+      "destination": "src/wical/original/sage_adapter.py",
+      "packaged_sha256": "916478095c5a6027ef95137a395d0201af7629a9346c057af9e6478c097af4e1",
+      "modified": false
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/all_conditional_errors.csv",
+      "source_sha256": "15616b2e9d547161381f46793d40e7785ff3e395096ea7580bcc2de8e16b1b2e",
+      "destination": "results/acde/all_conditional_errors.csv",
+      "packaged_sha256": "6e31aa3e9ecaca0ea5f4aec5706c9bc37ba1826266de7ee15c51d8e160846a79",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/blind_predictions.csv",
+      "source_sha256": "42362a815bea283dee0d9eef2687f67f393c1691d7dd3746c319fbdd7c7e95af",
+      "destination": "results/acde/blind_predictions.csv",
+      "packaged_sha256": "c94c7171dba12be234935ca41e0316cb132e4bbaebfeb9e9f168b84fbda49118",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/effective_phase.csv",
+      "source_sha256": "251aa75a1f3eaf8687b75e2405f5e502932757d8baf84ea5a2bdfd0fc5867758",
+      "destination": "results/acde/effective_phase.csv",
+      "packaged_sha256": "f88d5ccf118c7cfe7928e1a0298c6f984aa53b07714534e1765066440a3535d3",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/empty_phase_drift_tones.csv",
+      "source_sha256": "9352adf9d6b3aa636942bfed0fba3c3b472408fb4f095ae467e05ce81b8d85d4",
+      "destination": "results/acde/empty_phase_drift_tones.csv",
+      "packaged_sha256": "58dd5b3dff596e742b1219d48a8a11f9b0e189b2675d3e3831980ac6c938d199",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/empty_phase_drift.csv",
+      "source_sha256": "cf52667983d2645b363c946969b485c98c9446a95cb56506ad789071cd29156a",
+      "destination": "results/acde/empty_phase_drift.csv",
+      "packaged_sha256": "fccd07d7db1781983916f7e748691518366d1f574d6e509fd0feab9682ecebc0",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/native_sage.csv",
+      "source_sha256": "60767a4b8d976d0826128792c6cdc2ab5cc93e1c9504cd502e3d6f8cb4825da3",
+      "destination": "results/acde/native_sage.csv",
+      "packaged_sha256": "ec57a9c0811054c771e682d0f85f57441ee5b8dcce79bd7e1aef90e3c39b4a12",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/negative_control.csv",
+      "source_sha256": "3061ff11ad3fc7c3b534e7aecd183dd9b2057631ba0059086e0343b9b1d5f00c",
+      "destination": "results/acde/negative_control.csv",
+      "packaged_sha256": "6414054e9c93d4aaf6941982cdac79a4490cb21664512119f378dbee366f10d6",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/phase_tones.csv",
+      "source_sha256": "97f9aa3cd1c3f3dcca73266f7ea6e68b68d3c17052833798a5ca293d948e8d9c",
+      "destination": "results/acde/phase_tones.csv",
+      "packaged_sha256": "0be5749ce1b83372d4345e21e2872a808c18f10ecd6f4ac6870ecb09d726344c",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/primary_results.csv",
+      "source_sha256": "8d421b24548afec75e2e628c608f77d806c99fd99440fe26639ed2313bc52d1c",
+      "destination": "results/acde/primary_results.csv",
+      "packaged_sha256": "678577d354a568cc55d263e1975074ba18a5562c911c6a187e49562efe3e8ed6",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/spectra.csv",
+      "source_sha256": "99cec2796851592ce6a93f6558948c53eecd4920e97bdf3ed6c8b98f4b0a16be",
+      "destination": "results/acde/spectra.csv",
+      "packaged_sha256": "05fd111304488f3c68ffff96d0f3372029a4dec61a1951e7ae333fb7245304e9",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/state_quality.csv",
+      "source_sha256": "03ecc03cb9e07dcee9644292bf3193ec287eb24d4cc39d9db87396d86a06d697",
+      "destination": "results/acde/state_quality.csv",
+      "packaged_sha256": "1436156b2adac75efa57e46006b78bb7dbdf74f67fa36d7cd32f7ba91e7e884b",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/state_spectra.csv",
+      "source_sha256": "9edeaa157f3f3028020f63827aa4d13d1b7f6591a0b6dfb1ffa0706e8695c3ac",
+      "destination": "results/acde/state_spectra.csv",
+      "packaged_sha256": "85c32d350b09f60a0aaa61059efa6bb06b3487402999a0b3bf07e3003e338ec0",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/summary_for_teacher.csv",
+      "source_sha256": "8ae7bf58f91602cf32a0af186e8b3a96ad871089422c6dfd7764917491b825e4",
+      "destination": "results/acde/summary_for_teacher.csv",
+      "packaged_sha256": "98ad6aed97a2addf2e4bc3cce9be28e20ef78d2a8d558de6238e9ad927896ec8",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    },
+    {
+      "source_label": "WiCAL_ACDE_For_Teacher.zip/tables/geometry.csv",
+      "source_sha256": "ef547146e652d5b785de9a64e41e44a2b834c34ada99a7d58d3dc8f7b8841493",
+      "destination": "results/acde/geometry.csv",
+      "packaged_sha256": "f1ef24ebb8e441b56fa892142b419baf72e415afa4b303a879285fcc7a52fb7f",
+      "modified": true,
+      "change": "UTF-8/LF normalization; remove identifying columns where present; numerical cells unchanged"
+    }
+  ],
+  "excluded_native_core_sha256": "1d39f976b819f6b07b77d5f72772707c3a001c4ffb0bddde10d4594d003d5b4c",
+  "packaging_changes": [
+    "Move executable source to src; use proper package imports and add package init files.",
+    "Make permission-cleared external native core optional, pinned by SHA-256; preserve existing direct profile.",
+    "Remove historical 90-run CLI whose statistics are not included; preserve estimator functions.",
+    "Reject invalid AntSEL without out-of-bounds writes; use explicit private input arguments.",
+    "Reject nonempty output directories; add synthetic fixture, evaluator, plotting CLI, manifest checker and tests.",
+    "Normalize public result CSV encoding; remove identifying fields only where present, preserve all values.",
+    "Refresh formal teacher-workflow guide; add explicit objective/I-O sections, complete module/import inventory and a labelled Chinese instruction diagram; production source and measured values unchanged."
+  ]
+}

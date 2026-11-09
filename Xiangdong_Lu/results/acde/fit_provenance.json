@@ -1,0 +1,10 @@
+{
+  "frozen_before_geometry": {
+    "blind_predictions.csv": "c94c7171dba12be234935ca41e0316cb132e4bbaebfeb9e9f168b84fbda49118",
+    "spectra.csv": "05fd111304488f3c68ffff96d0f3372029a4dec61a1951e7ae333fb7245304e9",
+    "negative_control.csv": "6414054e9c93d4aaf6941982cdac79a4490cb21664512119f378dbee366f10d6",
+    "native_sage.csv": "ec57a9c0811054c771e682d0f85f57441ee5b8dcce79bd7e1aef90e3c39b4a12"
+  },
+  "native_crosscheck": "Historical recorded native audit; public tables have sanitized identifiers",
+  "sanitization": "UTF-8/LF normalization and removal of identifying columns only; numerical values unchanged"
+}
