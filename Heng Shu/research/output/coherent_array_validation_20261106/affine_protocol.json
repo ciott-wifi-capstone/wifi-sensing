@@ -1,0 +1,6 @@
+{
+  "status": "Additional reference-model diagnostic before truth scoring; no replacement of primary.",
+  "calibration": "R1 first8 only. Known exact TX propagation divided out of relative antenna response. Fit a constant phase and baseband-frequency slope using 20 tones; untouched 10 tones and R1/R3 held blocks audit the assumption.",
+  "caveat": "A good affine fit does not distinguish fixed hardware from an approximately affine multipath mixture. No portable or absolute calibration is asserted.",
+  "no_more_search": "Raw, per-tone empirical and affine reference are all retained, with no point-specific selection."
+}

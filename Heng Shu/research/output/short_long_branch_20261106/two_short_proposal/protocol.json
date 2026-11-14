@@ -1,0 +1,5 @@
+{
+  "role": "Separately registered secondary proposal-only sensitivity, not a replacement for the previously frozen shared-G2 primary. Requested A–E only. No outcome-dependent parameter sweep.",
+  "change": "Use the pooled projection residual of both short roles P and S to generate at most two candidates, and to verify the short proposal on each band/block including the negative and reverse controls. S, which is now inside the proposal, is an internal consistency check, not an independent witness. Physically separate H1/H2 witnesses unchanged for their own C1/C2 paths. No change to packet allocation, margin, separation, gates or thresholds. Keep the three arms separate; P+S contains two G2 slices in G2-only and the true G2/G3 in hardware arms. Compare G-only-12 and short-long-12 with their identical candidate list to isolate long verification. Interpret this secondary test as exploratory after the primary pilot had run.",
+  "model": "Previous background_null only, ±90° search. Save predictions before evaluating survey errors."
+}

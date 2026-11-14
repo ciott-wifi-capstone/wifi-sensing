@@ -1,0 +1,22 @@
+{
+  "purpose": "Retrospective, paired diagnostic on existing raw CSI. No new collection. No transfer of an offset or a person label between receiver initializations.",
+  "primary_batches": [
+    "New A",
+    "Real New B",
+    "Real New C",
+    "Real New D",
+    "New E"
+  ],
+  "repeat_batches": [
+    "New B",
+    "New C"
+  ],
+  "roles": "R1 empty before; R2 occupied; R3 empty after. One occupied window per batch.",
+  "processing": "Existing Intel 5300 HT40 mask-3 two-bit AntSEL reordering and physical six-state mapping. All target packets within formal [0,10) and [3,21) ms after most recent aligned READY. Literal serial-host READY is a separately named sensitivity check. No new sign choice. Unit mean-square power per packet. Real physical state coordinates. No coherent stitching.",
+  "grid": "-90 to +90 inclusive in 1 degree steps. G3 reported with its state centre; fusion uses RX midpoint as origin. Include B throughout. Survey positions and the friend's output are never read by the estimator.",
+  "primary_method": "Same-frequency Delta R MUSIC with R1-only subtraction, q=1 largest strictly positive algebraic eigencomponent per tone. Six-state equal-weight average of log normalized spectra (geometric mean), full angular domain. No coarse mask in primary.",
+  "comparisons": "Same packets/grid: raw MUSIC; Delta R MUSIC; regularized background-whitened MUSIC; diagnostic empirical R1 relative phase + Delta R. Report G3, four G arithmetic/geometric mean, six-state arithmetic/geometric mean. Fixed sparse-ambiguity sensitivity: two strongest G1-G4 arithmetic local maxima on a 10-degree coarse grid separated by >=20 deg, each +/-15 degrees. Never restrict using point coordinates. Compare with archived 3-degree four-G raw mean baseline separately.",
+  "negative_control": "Use the same R1 for R2 and R3. Strength audit separate from normalized MUSIC: max over angle of the arithmetic six-state mean of per-tone positive signed beam-power contrast a^H (Rtest-Rref) a / (a^H a), no per-spectrum normalization. R3-as-reference/R2 is sensitivity only, excluded from primary. A peak is flagged as supported only if R2/R3 strength >1, both half-band global peaks and >=3/4 R2 quarter global peaks within 9 deg of primary peak, reverse reference R2 peak within 9 deg, no repeatable nearby peak in R3 (same half/time checks), and primary peak away from grid edges (|theta|<87). Report all 5 even on failure; gate is exploratory, not validation.",
+  "bounds": "7 matched batches / 21 raw runs total. One fixed pass; compare with survey only after freezing all predictions. These visits have already been inspected; no unseen accuracy claim. No search for weights, hardware permutations, reflection side, per-point bias, coarse domain or optimal branch using truth.",
+  "source_limit": "Teacher PDF supplied without original SAGE code, concrete coarse-domain definitions, or supplementary decoder package. We implement an independent MUSIC transfer, not an exact SAGE reproduction."
+}

@@ -1,0 +1,16 @@
+{
+  "confirmed": "2026-10-20 user: TX on left, RX on right",
+  "global_TX": [
+    0,
+    0
+  ],
+  "global_RX": [
+    3.65,
+    0
+  ],
+  "points": "retain supplied drawing x=1.64, y=+/-1,+/-2",
+  "local_transform": "x_rx=3.65-x_global; y_rx=-y_global",
+  "orientation_assumption": "retain earlier confirmation: numbering 1->12 left-to-right viewed from behind RX facing TX; positive local angle towards observer left",
+  "note": "saved spectra use local array geometry; unchanged numerical spectra are reinterpreted in corrected global coordinates, not relabelled as calibrated estimates",
+  "mapping": "45 good=+2 and 45 bad=-2 retained from prior explicit user mapping"
+}

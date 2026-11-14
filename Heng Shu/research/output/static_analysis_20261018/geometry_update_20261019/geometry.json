@@ -1,0 +1,63 @@
+{
+  "antenna_y_m": [
+    0.154,
+    0.126,
+    0.098,
+    0.07,
+    0.042,
+    0.014,
+    -0.014,
+    -0.042,
+    -0.07,
+    -0.098,
+    -0.126,
+    -0.154
+  ],
+  "state_mapping": {
+    "G1": [
+      1,
+      2,
+      3
+    ],
+    "G2": [
+      4,
+      5,
+      6
+    ],
+    "G3": [
+      7,
+      8,
+      9
+    ],
+    "G4": [
+      10,
+      11,
+      12
+    ],
+    "C1": [
+      1,
+      8,
+      6
+    ],
+    "C2": [
+      10,
+      8,
+      6
+    ]
+  },
+  "tx": [
+    3.65,
+    0
+  ],
+  "ground_truth_origin": "User confirmed RX 6/7 midpoint",
+  "geometry_confirmed": true,
+  "aperture_m": 0.308,
+  "frequency_hz": 5230000000.0,
+  "far_field_scale_m": 3.309881264591386,
+  "method": "Separate-state 2D MUSIC, 3 antennas x 15 frequency groups; frequency-only smoothing; signal subspace dimension 3; narrowband spatial phase at 5.23 GHz; no spatial smoothing or cross-state coherent assembly",
+  "spherical_ranges_m": [
+    1.0,
+    2.0
+  ],
+  "sphere_note": "Fixed range sensitivity; unknown common delay remains free. Not full bistatic position inference."
+}
