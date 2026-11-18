@@ -1,0 +1,10 @@
+{
+  "sessions": 4,
+  "runs": 12,
+  "raw_frames": 126025,
+  "selected_frames": 82247,
+  "manifest_entries": 144,
+  "manifest_all_match": true,
+  "native_sage_calls": 840,
+  "public_numeric_tables_verified": 14
+}

@@ -1,0 +1,76 @@
+{
+  "historical_mnt_data_available": false,
+  "reused_previous_submission": true,
+  "authoritative_teacher_archive_members_verified": 180,
+  "archives": [
+    {
+      "archive": "WiCAL_ACDE_For_Teacher.zip",
+      "exists": true,
+      "bytes": 27243498,
+      "sha256": "c0c827695a55052c2d476e0beb4f38b7494f83c56661fe40dccc55f58c813754",
+      "crc_ok": true,
+      "python_members": [
+        "code/compare.py",
+        "code/replay.py",
+        "code/retest.py",
+        "code/summarize.py",
+        "code/wical/common.py",
+        "code/wical/estimate.py",
+        "code/wical/original/background_phase_qc.py",
+        "code/wical/original/extended_analysis.py",
+        "code/wical/original/per_subcarrier_calibration.py",
+        "code/wical/original/sage_adapter.py",
+        "code/wical/original/widar2_original.py"
+      ],
+      "native_core_comparisons": [
+        {
+          "member": "code/wical/original/widar2_original.py",
+          "sha256": "1d39f976b819f6b07b77d5f72772707c3a001c4ffb0bddde10d4594d003d5b4c",
+          "matches_teacher_core": true
+        }
+      ]
+    },
+    {
+      "archive": "WiCAL_报告准备材料_20261105.zip",
+      "exists": true,
+      "bytes": 171723,
+      "sha256": "20bbdbf56b6340ea7024acddd01324116ed6ab7ca5f5752e769041218615e4ed",
+      "crc_ok": true,
+      "python_members": [],
+      "native_core_comparisons": []
+    },
+    {
+      "archive": "WiCAL_12天线_多基线联合AoA_真实实验_20261101.zip",
+      "exists": true,
+      "bytes": 281795059,
+      "sha256": "2ff74d6077c1c839a1e292fac5d2421287b5f180999c6ca4edc74ae2fb34ac52",
+      "crc_ok": true,
+      "python_members": [
+        "WiCAL_MultiBaseline_20261101/baseline_reference/common.py",
+        "WiCAL_MultiBaseline_20261101/baseline_reference/experiment.py",
+        "WiCAL_MultiBaseline_20261101/code/common.py",
+        "WiCAL_MultiBaseline_20261101/code/diagnostics.py",
+        "WiCAL_MultiBaseline_20261101/code/estimate.py",
+        "WiCAL_MultiBaseline_20261101/code/evaluate.py",
+        "WiCAL_MultiBaseline_20261101/code/original/background_phase_qc.py",
+        "WiCAL_MultiBaseline_20261101/code/original/extended_analysis.py",
+        "WiCAL_MultiBaseline_20261101/code/original/per_subcarrier_calibration.py",
+        "WiCAL_MultiBaseline_20261101/code/original/sage_adapter.py",
+        "WiCAL_MultiBaseline_20261101/code/original/widar2_original.py",
+        "WiCAL_MultiBaseline_20261101/code/package.py",
+        "WiCAL_MultiBaseline_20261101/code/prepare.py",
+        "WiCAL_MultiBaseline_20261101/code/report.py",
+        "WiCAL_MultiBaseline_20261101/code/run_all.py",
+        "WiCAL_MultiBaseline_20261101/code/simulate.py",
+        "WiCAL_MultiBaseline_20261101/code/verify.py"
+      ],
+      "native_core_comparisons": [
+        {
+          "member": "WiCAL_MultiBaseline_20261101/code/original/widar2_original.py",
+          "sha256": "1d39f976b819f6b07b77d5f72772707c3a001c4ffb0bddde10d4594d003d5b4c",
+          "matches_teacher_core": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "reference": "Run1 within the same session and radio initialization only",
+  "role_evidence": "A confirmed; C/D/E follow established Run1 empty, Run2 person, Run3 empty order as an assumption; logs identify run numbers only",
+  "target": "Run2",
+  "held_out_empty": "Run3",
+  "points": "Original A and current C/D/E; B excluded after result inspection by user",
+  "window": "recorded 10 s, 3 through 21 ms after READY, complete dwells only; offset is median host_ns - ESP32_us*1000",
+  "covariance": "unit mean power per packet over all 30 tones and 3 Rx, then average outer product separately per tone",
+  "reference_column": 1,
+  "grid": [
+    -90,
+    90,
+    1
+  ],
+  "frequency_hz": 5230000000.0,
+  "spacing_m": 0.028,
+  "physical_state_map_from_READY": {
+    "G1": [
+      1,
+      2,
+      3
+    ],
+    "G2": [
+      4,
+      5,
+      6
+    ],
+    "G3": [
+      7,
+      8,
+      9
+    ],
+    "G4": [
+      10,
+      11,
+      12
+    ],
+    "C1": [
+      1,
+      8,
+      6
+    ],
+    "C2": [
+      10,
+      8,
+      6
+    ]
+  },
+  "steering": "exp(+j*k*y*sin(theta)); angle positive toward higher nominal antenna numbers",
+  "mapping": "cov = retained Intel mask3; alt = public-stable double-rank sensitivity; physical wiring unconfirmed",
+  "branches": [
+    "raw",
+    "background",
+    "kong_phase_hypothesis"
+  ],
+  "phase": "Run1 principal eigenvector divided by nominal TX spherical steering, 3.65 m, diagnostic",
+  "G3": "one-path AoA-only SAGE per tone; native argmax cross-check; average profile power; strongest angle",
+  "J6_product": "geometric mean of six noncoherent mean-normalized powers floored at 0.05; inherited coarse support from G1-G4 and their average; strongest angle",
+  "tie_rule": "first index of ascending angle grid",
+  "GT_used_in_estimation": false,
+  "drift": "robust phase center per dwell, equal votes across dwells, wrapped Run3 minus Run1, P95 over 3 pairs x 30 tones",
+  "phase_gate_p95_deg": 10,
+  "G3_control_score": "max G3 unnormalized power",
+  "J6_control_score": "max of mean unnormalized six-state power; also report mean power at selected product angle"
+}

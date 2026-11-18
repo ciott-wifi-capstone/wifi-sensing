@@ -1,0 +1,17 @@
+Rights and licensing status
+
+No new open-source or commercial license is granted by this submission package.
+Copyright and any pre-existing rights remain with their respective holders.
+Project author / student submitter: Xiangdong Lu.
+Packaging does not establish sole authorship of inherited or assisted code.
+
+The local third-party Widar2 Python implementation has no verified redistribution
+license in the supplied materials. It is intentionally NOT included. Obtain a
+permission-cleared copy separately if the optional native audit is required.
+See NOTICE.md for attribution and the exact audited file hash.
+
+The included project scripts and new reproducibility helpers are provided for
+supervisor review as requested by the student. Public visibility does not itself
+grant a license to reuse or relicense them. A rights holder may add an appropriate
+license after confirming ownership and university requirements. This file must
+not be interpreted as relicensing the Widar2 algorithm or any third-party source.

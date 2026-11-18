@@ -1,0 +1,345 @@
+{
+  "modules": [
+    {
+      "path": "src/compare.py",
+      "sha256": "21580a727bc269992b605c86c6b10312687a68af559a37b353cb4034aa7362e1",
+      "lines": 102,
+      "imports": [
+        "argparse",
+        "csv",
+        "hashlib",
+        "json",
+        "math",
+        "matplotlib",
+        "matplotlib.lines",
+        "matplotlib.pyplot",
+        "numpy",
+        "pathlib"
+      ],
+      "functions": [
+        "load",
+        "save",
+        "geometry",
+        "plot"
+      ]
+    },
+    {
+      "path": "src/evaluate_results.py",
+      "sha256": "d0b1fa60006a4902dd0508a89d7efe7c867db7b696b9fd7137f0c5999e3e5b21",
+      "lines": 84,
+      "imports": [
+        "argparse",
+        "csv",
+        "hashlib",
+        "json",
+        "math",
+        "pathlib"
+      ],
+      "functions": [
+        "evaluate",
+        "main"
+      ]
+    },
+    {
+      "path": "src/plot_results.py",
+      "sha256": "bb847289a78686975f7ef57a6a053fbf719db07536873a1d4b917fbfaa22e947",
+      "lines": 23,
+      "imports": [
+        "argparse",
+        "compare",
+        "evaluate_results",
+        "pathlib"
+      ],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/replay.py",
+      "sha256": "8a3948bcd29f8c84878e84857762c7859fe69306815aa63da22e801ddb04f360",
+      "lines": 388,
+      "imports": [
+        "argparse",
+        "collections",
+        "datetime",
+        "decimal",
+        "json",
+        "numpy",
+        "pathlib",
+        "re",
+        "sys",
+        "wical.common",
+        "wical.estimate",
+        "wical.original.extended_analysis",
+        "wical.original.sage_adapter",
+        "zipfile"
+      ],
+      "functions": [
+        "optional_core",
+        "circular_summary",
+        "utc_ns",
+        "identity",
+        "audit_session",
+        "audit_run",
+        "compare_empty",
+        "estimate_point",
+        "main"
+      ]
+    },
+    {
+      "path": "src/retest.py",
+      "sha256": "5675bdc940a3052e8cb8e0ad8e6eef9e6ef35ddbb76c2f84e81d562b643ea346",
+      "lines": 50,
+      "imports": [
+        "argparse",
+        "collections",
+        "csv",
+        "json",
+        "numpy",
+        "pathlib",
+        "replay"
+      ],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/run_example.py",
+      "sha256": "ff0c282eddabd350e5721b61451d101778ae3e03b960a536051f89fdb3bba52d",
+      "lines": 69,
+      "imports": [
+        "argparse",
+        "collections",
+        "csv",
+        "numpy",
+        "pathlib",
+        "replay"
+      ],
+      "functions": [
+        "load_covariance",
+        "estimate",
+        "main"
+      ]
+    },
+    {
+      "path": "src/verify_manifest.py",
+      "sha256": "e81d54832e32e02223f63c718c97a1889e06544a8728101c5fbf7d15ec6a6654",
+      "lines": 21,
+      "imports": [
+        "hashlib",
+        "pathlib"
+      ],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/wical/__init__.py",
+      "sha256": "cc082e0a2486153f7ba5738bdbaa030ad9b42bb17b736e4b7e4bc06a2d60dbf8",
+      "lines": 1,
+      "imports": [],
+      "functions": []
+    },
+    {
+      "path": "src/wical/common.py",
+      "sha256": "819ae3505a1d386a9ec5ee54333714d26b6933e5d1aa47d466a332d2bce5f819",
+      "lines": 49,
+      "imports": [
+        "csv",
+        "hashlib",
+        "json",
+        "numpy",
+        "pathlib"
+      ],
+      "functions": [
+        "coords",
+        "wrapdeg",
+        "sha",
+        "clean",
+        "dump",
+        "load",
+        "readcsv",
+        "csvout",
+        "key",
+        "circ_sd",
+        "peaks",
+        "norm",
+        "steering"
+      ]
+    },
+    {
+      "path": "src/wical/estimate.py",
+      "sha256": "23ae7cb4d36c6eae22d19114822e937f9b2371817a5bf533e0543717ffa13847",
+      "lines": 126,
+      "imports": [
+        ".common",
+        ".original.sage_adapter",
+        "argparse",
+        "common",
+        "numpy",
+        "sage_adapter",
+        "sys",
+        "time"
+      ],
+      "functions": [
+        "template",
+        "phase",
+        "inputs",
+        "profiles",
+        "long_gates",
+        "noise_for",
+        "coarse",
+        "quality",
+        "fuse",
+        "calculate"
+      ]
+    },
+    {
+      "path": "src/wical/original/__init__.py",
+      "sha256": "6361c61735144d9dae294b2ff0f372372083db7c09d88cbc2fe0967389a2f332",
+      "lines": 1,
+      "imports": [],
+      "functions": []
+    },
+    {
+      "path": "src/wical/original/background_phase_qc.py",
+      "sha256": "36ad7d08b79b61f8b0301b1643d8f736f84056fc9aea7a09b79a2d6b5ffa2c86",
+      "lines": 194,
+      "imports": [
+        ".per_subcarrier_calibration",
+        "argparse",
+        "csv",
+        "hashlib",
+        "json",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "pathlib",
+        "per_subcarrier_calibration",
+        "re",
+        "sys",
+        "zipfile"
+      ],
+      "functions": [
+        "decode",
+        "events",
+        "read_run",
+        "aggregate",
+        "error_summary",
+        "savecsv",
+        "main"
+      ]
+    },
+    {
+      "path": "src/wical/original/extended_analysis.py",
+      "sha256": "c1f2a8408cb2217b5e8c241412a74c510d020436dc093995a104380a4fa76e39",
+      "lines": 249,
+      "imports": [
+        ".background_phase_qc",
+        ".per_subcarrier_calibration",
+        "argparse",
+        "background_phase_qc",
+        "csv",
+        "decimal",
+        "hashlib",
+        "html",
+        "itertools",
+        "json",
+        "numpy",
+        "pathlib",
+        "per_subcarrier_calibration",
+        "re",
+        "zipfile"
+      ],
+      "functions": [
+        "savecsv",
+        "savejson",
+        "sha",
+        "meanabs",
+        "scalar_decode",
+        "read",
+        "statistics",
+        "distance",
+        "svg_heatmap",
+        "main"
+      ]
+    },
+    {
+      "path": "src/wical/original/per_subcarrier_calibration.py",
+      "sha256": "1ed7e3ac595603df05e03c55f87dd41976cd4dd957fd7b8d9b2e681f8bc89a42",
+      "lines": 176,
+      "imports": [
+        "argparse",
+        "csv",
+        "hashlib",
+        "json",
+        "numpy",
+        "pathlib"
+      ],
+      "functions": [
+        "wrap",
+        "read",
+        "digest",
+        "clean",
+        "save",
+        "csvsave",
+        "stats",
+        "measure",
+        "phase_r",
+        "solve",
+        "main"
+      ]
+    },
+    {
+      "path": "src/wical/original/sage_adapter.py",
+      "sha256": "916478095c5a6027ef95137a395d0201af7629a9346c057af9e6478c097af4e1",
+      "lines": 54,
+      "imports": [
+        "ast",
+        "builtins",
+        "copy",
+        "itertools",
+        "numpy",
+        "pathlib",
+        "time"
+      ],
+      "functions": [
+        "coords",
+        "load_core",
+        "steering",
+        "fit",
+        "locate"
+      ]
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "282740cdd4829c6cf779748c907cf724d66b05e12696fb36bd9b4e273a25f00d",
+      "lines": 131,
+      "imports": [
+        "csv",
+        "evaluate_results",
+        "itertools",
+        "json",
+        "numpy",
+        "pathlib",
+        "replay",
+        "run_example",
+        "shutil",
+        "sys",
+        "tempfile",
+        "unittest",
+        "wical.estimate",
+        "wical.original.background_phase_qc",
+        "wical.original.extended_analysis"
+      ],
+      "functions": [
+        "packed_frame"
+      ]
+    }
+  ],
+  "external_dependencies": [
+    "matplotlib",
+    "numpy"
+  ],
+  "optional_native_file_bundled": false
+}

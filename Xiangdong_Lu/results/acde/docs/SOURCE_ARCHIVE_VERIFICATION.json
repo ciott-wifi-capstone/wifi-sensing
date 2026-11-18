@@ -1,0 +1,57 @@
+[
+  {
+    "relative_path": "code/compare.py",
+    "sha256": "214c9157bb4f2de8b1f84303111ff30d1771c319e29c1a2efd67c58e2790344c",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/replay.py",
+    "sha256": "979af44d815522d10f5011d87f1aed3779d715ac9f5ba34dcc82b657804c8e1d",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/retest.py",
+    "sha256": "54c35a537299f75dc94b9bd26bb7b6c998b5b6fc26fac824de900fc69c77b44a",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/summarize.py",
+    "sha256": "04e07e4233225dd281ea90f7c44c0783a3158551aa09ef5885bd3d05c77ad721",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/common.py",
+    "sha256": "819ae3505a1d386a9ec5ee54333714d26b6933e5d1aa47d466a332d2bce5f819",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/estimate.py",
+    "sha256": "46cecb0edece9a6727df4ea2788fa2aa3bcb0d82f3aa51453ac4a0a14228a5dc",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/original/background_phase_qc.py",
+    "sha256": "97f26450eec446f44b69b36b953ef05773917fff459da0300b43e8f2e3548875",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/original/extended_analysis.py",
+    "sha256": "ef7dfcf5b97bf7490a2b682f8e6f2ba56da547b33a3574e3909a297249d4d3d1",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/original/per_subcarrier_calibration.py",
+    "sha256": "c0db2ad5c8167d085b093fecaa3ba8aa3ae1307a40149d6363e5c0b8b793559e",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/original/sage_adapter.py",
+    "sha256": "916478095c5a6027ef95137a395d0201af7629a9346c057af9e6478c097af4e1",
+    "archive_matches_working_copy": true
+  },
+  {
+    "relative_path": "code/wical/original/widar2_original.py",
+    "sha256": "1d39f976b819f6b07b77d5f72772707c3a001c4ffb0bddde10d4594d003d5b4c",
+    "archive_matches_working_copy": true
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "tx_m": [
+    0,
+    0
+  ],
+  "rx_m": [
+    3.65,
+    0
+  ],
+  "points_m": {
+    "A": [
+      0.8,
+      0.6
+    ],
+    "B_new": [
+      1.64,
+      -2
+    ],
+    "C": [
+      0.8,
+      -1.2
+    ],
+    "D": [
+      2.4,
+      -1.6
+    ]
+  },
+  "archival_to_report_label": {
+    "A": "A",
+    "E": "B_new",
+    "C": "C",
+    "D": "D"
+  },
+  "conditional_angle_formula": "degrees(atan2(y,3.65-x))",
+  "physical_orientation_verified": false,
+  "antsel_verified": false
+}
