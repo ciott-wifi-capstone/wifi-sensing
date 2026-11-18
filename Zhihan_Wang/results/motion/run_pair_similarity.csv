@@ -1,0 +1,29 @@
+left_motion,left_dataset,left_run,right_motion,right_dataset,right_run,same_action_condition,spearman_r
+FRONT,15 + front,run1,FRONT,15 + front,run2,True,0.24041184041184044
+FRONT,15 + front,run1,FRONT,15 + front,run3,True,-0.04298584298584299
+FRONT,15 + front,run1,DOWN,15 + down,run1,False,-0.11557271557271558
+FRONT,15 + front,run1,DOWN,15 + down,run2,False,-0.07670527670527671
+FRONT,15 + front,run1,TURN_RIGHT,15 + turn right,run1,False,-0.2810810810810811
+FRONT,15 + front,run1,TURN_RIGHT,15 + turn right,run2,False,0.16731016731016732
+FRONT,15 + front,run1,TURN_RIGHT,15 + turn right,run3,False,0.17966537966537968
+FRONT,15 + front,run2,FRONT,15 + front,run3,True,-0.020334620334620336
+FRONT,15 + front,run2,DOWN,15 + down,run1,False,-0.13873873873873876
+FRONT,15 + front,run2,DOWN,15 + down,run2,False,-0.29575289575289576
+FRONT,15 + front,run2,TURN_RIGHT,15 + turn right,run1,False,-0.33153153153153153
+FRONT,15 + front,run2,TURN_RIGHT,15 + turn right,run2,False,0.1274131274131274
+FRONT,15 + front,run2,TURN_RIGHT,15 + turn right,run3,False,-0.0453024453024453
+FRONT,15 + front,run3,DOWN,15 + down,run1,False,-0.3287001287001287
+FRONT,15 + front,run3,DOWN,15 + down,run2,False,-0.15572715572715573
+FRONT,15 + front,run3,TURN_RIGHT,15 + turn right,run1,False,0.20437580437580435
+FRONT,15 + front,run3,TURN_RIGHT,15 + turn right,run2,False,-0.04118404118404118
+FRONT,15 + front,run3,TURN_RIGHT,15 + turn right,run3,False,-0.11583011583011583
+DOWN,15 + down,run1,DOWN,15 + down,run2,True,0.32895752895752894
+DOWN,15 + down,run1,TURN_RIGHT,15 + turn right,run1,False,0.08416988416988418
+DOWN,15 + down,run1,TURN_RIGHT,15 + turn right,run2,False,0.14234234234234233
+DOWN,15 + down,run1,TURN_RIGHT,15 + turn right,run3,False,0.3806949806949807
+DOWN,15 + down,run2,TURN_RIGHT,15 + turn right,run1,False,0.08082368082368084
+DOWN,15 + down,run2,TURN_RIGHT,15 + turn right,run2,False,0.3191763191763192
+DOWN,15 + down,run2,TURN_RIGHT,15 + turn right,run3,False,0.46177606177606173
+TURN_RIGHT,15 + turn right,run1,TURN_RIGHT,15 + turn right,run2,True,-0.3335907335907336
+TURN_RIGHT,15 + turn right,run1,TURN_RIGHT,15 + turn right,run3,True,-0.16344916344916346
+TURN_RIGHT,15 + turn right,run2,TURN_RIGHT,15 + turn right,run3,True,0.4972972972972973

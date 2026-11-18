@@ -1,0 +1,194 @@
+[
+  {
+    "original": "analyze_new_motion_spatial_fingerprints.py",
+    "original_sha256": "427bb6f62058cc661e73c286a96282b8982cb4b72dee101bc0ea6d8e57eba60c",
+    "supported_components": {
+      "src/wical/motion.py": "d0ff1428924ceab4d33d80d9f55851088b2167a44e4af2721793ef50019c657f",
+      "scripts/analyze_motion.py": "1c4c3a21a7902ee53b64b2e729cdb7fd7eaa2bc4292711744914e4b148e00cb0"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "analyze_static_quality_gate.py",
+    "original_sha256": "e6679063d4530162f1baa725bdc5e7edfd89880b891680679dc4576555e9fed9",
+    "supported_components": {
+      "src/wical/selection.py": "748db18729da7350abb54dbc3f727bfc0db40d18c86e243535e1ebed42eaf21c"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "motion_down_d1_timing_coverage.py",
+    "original_sha256": "6a14542c58e9ae7b5d10d80d1853c556ab389d3908ed7a7a30a1961de4b3ac7c",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_front_gt_mapping_f1.py",
+    "original_sha256": "29f9a1e087b0ebeec137095088e114eb9a20995eba59e19cdab7e3ab87b1ff38",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_front_gt_offset_sensitivity_f2.py",
+    "original_sha256": "2bc38d8a317c9e532f69d592085a28fc30c2b45c06c42e7cf5ba81e27987f22d",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m1_2_test6_run1.py",
+    "original_sha256": "013e616d2dc221bb8549a8d01b9900e85874470e3bfffc95c8991caae8da48db",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m1_3_test6_run1.py",
+    "original_sha256": "cca023b526c3b860d1b124b2943249d6f215a83943d45d7f7f274e7f75a511f3",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m1_4_existing_runs.py",
+    "original_sha256": "7395b970d3233488aa8939cd242e56debeaf19051b21cbdf5935666b855eeca9",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m1_stage1.py",
+    "original_sha256": "d6b1f1913c9872a0bc86c81e39e2df33ac52e6096c23509ea7068b953b67b46c",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m2a_test6_run1_frozen_farsense.py",
+    "original_sha256": "bd1a37baeb3fb3b609522145f990aafcc33a105e620375f718d10867f13ada4d",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m2a_test6_run1_windows_bc.py",
+    "original_sha256": "e18eeaa8db87720a28dd4855b9e6eb0945e603589f261a0216bcf7edb6ddc1a2",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_m2b_small_observation_compare.py",
+    "original_sha256": "e807a1b38f6ac4dc9fe14f9cde4e5585da34732bca045a96228f707f5cee7bb3",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_turn_right_event_alignment.py",
+    "original_sha256": "fa8b6b1d3d47b8c4bfb720223106e3ff40e1e66374bcf57bad25a6870e712c7f",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_turn_right_m4_long_window_gt.py",
+    "original_sha256": "34df3ab8aa24a818f91079c77455c6753e106bf96ce8e1a6328d3b26680429e1",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_turn_right_m5_frozen_farsense.py",
+    "original_sha256": "a4f09aad0da232e27acc14ded99db8035abfaeceb2788cbdfeb864c59604a78c",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_turn_right_m5b_state_quality.py",
+    "original_sha256": "4103b398a64ab0f9afde6299fac6da15ed5dc1c161e399f503c2f33cefa438cb",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "motion_turn_right_t2_run23_audit.py",
+    "original_sha256": "72a47606e6f12cb8a50b2e32f70716748a9110129e60afe4dd68abb2dd6aca88",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "recalculate_static_spatial_audit.py",
+    "original_sha256": "704558f48eb8a9c4817bafd291c0e9f7be031c94cd2fe4bb4697bb1f40e1dc28",
+    "supported_components": {
+      "src/wical/csi.py": "61eb9a04e3e09ca0f1bb9a8926c6dba675bf6f1224fb2ef8ee1a9f4a130a81a0",
+      "src/wical/static.py": "9f675e49a5c92410bded71ea87fc0d1eaab88754dfd34607cc385b5810603cf4",
+      "scripts/analyze_static.py": "3cb9a40bbef8549e6f4d8f9585de6d891f164f677d37761dc697e83a14be7b59"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "recover_static_waveforms.py",
+    "original_sha256": "d5e4bba95fc84bfc824f6d01d72cdd6c9f8a61248b7c8b68d58da8db239d60e9",
+    "supported_components": {
+      "scripts/analyze_static.py": "3cb9a40bbef8549e6f4d8f9585de6d891f164f677d37761dc697e83a14be7b59"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "run_m3e_sqi_gate.py",
+    "original_sha256": "5150bef141e6e486c40f96699012c0d9e5c3319ad2d52486334145057d59cd4c",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "run_m3f_full_sqi.py",
+    "original_sha256": "9738a6d1d1656deca02cb55a574d50b2e1308a0547312a3c210a55bae08171e5",
+    "supported_components": {
+      "scripts/analyze_static.py": "3cb9a40bbef8549e6f4d8f9585de6d891f164f677d37761dc697e83a14be7b59"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "run_m3g_sqi_evaluation.py",
+    "original_sha256": "5b0da0200c15fcf9c3e1ada3cf895af5da35b2f26ba43f176bcbbf8f74c3fea2",
+    "supported_components": {
+      "src/wical/selection.py": "748db18729da7350abb54dbc3f727bfc0db40d18c86e243535e1ebed42eaf21c",
+      "scripts/evaluate_selection.py": "a389bf0eb07cc653ce70c6524ea5b187369b8156ddb54a78df6e3a5f71d49c22"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "run_m3h_motion_sqi_pilot.py",
+    "original_sha256": "206e1f256b945fbd43a9c3ddaac83ac9e1559713ec338538378b349e77e4e6ee",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "run_m3i_full_motion_quality.py",
+    "original_sha256": "59a6064167d218f01b3f5dbd8d351f3cee6598a2a86d27746279a9aec05c1777",
+    "supported_components": {},
+    "status": "historical diagnostic; not bundled"
+  },
+  {
+    "original": "test_wical_sqi.py",
+    "original_sha256": "330c2b634543820a6d0b7eef0c998c5dc4d556333953434611e12a7317ca33a8",
+    "supported_components": {
+      "tests/test_sqi.py": "649298cea03251fd63dc77c563b7b19792e62490ce31a20d410f08452a27caf4"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "wical_sqi.py",
+    "original_sha256": "b411a8a87b0c818e2c2ab054808757a544cc6027a493b9a2375a0527ccf2bef7",
+    "supported_components": {
+      "src/wical/sqi.py": "f8926152f18da02bfbaf22f20be923077e7c96efc2f58812063bcd0fb6edf0f2"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "WiCAL_FarSense_STATIC_clean.ipynb",
+    "original_sha256": "112398a949d7c30115f4f15cd01c3061ab4114e25433b8f4fda4012a1cdf2be1",
+    "supported_components": {
+      "src/wical/reference.py": "68da29590e562edb9ca74664dca5db7b2b7d0de1f5f8317829c008fcd71228f7"
+    },
+    "status": "selected functionality extracted; original not bundled"
+  },
+  {
+    "original": "external/farsense/farsense_single_end.py",
+    "original_sha256": "8420d34083b0778a763253cd71a13d5fe5f0b53324364c3ac0b263456dacaae3",
+    "supported_components": {
+      "src/wical/farsense.py": "361e498f936a4ac988069349a6f1e88a59e52dd15dc75c2f66aca9dacd6e6223"
+    },
+    "status": "six numerical functions extracted; original not bundled"
+  }
+]

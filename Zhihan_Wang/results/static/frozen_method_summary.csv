@@ -1,0 +1,5 @@
+method,uses_gt_for_selection,n_independent_runs,mae_bpm,median_absolute_error_bpm,worst_absolute_error_bpm,relative_mae_improvement_vs_fixed_percent,relative_mae_improvement_vs_max_bnr_percent,runs_improved_vs_fixed,runs_practical_tie_vs_fixed,runs_worse_vs_fixed,runs_improved_vs_max_bnr,runs_practical_tie_vs_max_bnr,runs_worse_vs_max_bnr
+Fixed G1 · Rx1/Rx2,False,8,4.226726878963676,3.7238559889623897,9.76708604824381,0.0,-99.03407429943766,0,8,0,2,2,4
+Max-BNR,False,8,2.123619733877707,0.23702392215140033,8.394896962704669,49.757346649320674,0.0,4,2,2,0,8,0
+VitalCSI-inspired SQI v1.0.1,False,8,2.188143218942675,1.238151769979698,6.245294389168524,48.230787519463014,-3.0383728327457398,4,2,2,2,4,2
+Oracle (GT-based theoretical reference),True,8,0.2834063667906077,0.05344237761649584,0.9448308302596136,93.29489756716681,86.65456144198139,6,2,0,4,4,0
