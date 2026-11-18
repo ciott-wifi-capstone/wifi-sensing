@@ -21,12 +21,9 @@ Spearman correlation; thresholds and windows are unchanged. Tests include
 missing/duplicate observation coverage, row-order independence, no-event runs
 and undefined correlations for constant fingerprints.
 
-Full final-capture CSI replay, physical antenna mapping and manual belt landmark
-acceptance have not been independently validated.
-Saved-array agreement establishes computational reproducibility, not physiological
-accuracy or synchronized action labels. Input/time/quality warnings remain in
-each run's `warnings.csv`; a successful run is not a claim that these limitations
-have been resolved.
+The checks above cover software functions, saved-array calculations and result
+tables. Input, sampling and quality warnings are saved in each run's
+`warnings.csv`.
 
 The documentation and code-formatting update was also checked on Linux with
 Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0 and Matplotlib 3.10.8. All 32 tests

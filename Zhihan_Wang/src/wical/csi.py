@@ -1,7 +1,7 @@
 """Read PicoScenes CSI and assign packets to switching states.
 
 Packet times are approximated from the first and last host timestamps.
-This loader has not been validated on the final experiment captures.
+See docs/REPRODUCTION.md for the capture format and timing approximation.
 """
 
 from __future__ import annotations

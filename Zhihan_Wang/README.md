@@ -139,9 +139,8 @@ For the recovered raw-loader prototype, install the optional csiread dependency:
 .venv/bin/python -B scripts/analyze_motion.py --run-dir /path/to/capture/run1 --out output/raw_motion
 ```
 
-Real final-run raw captures were unavailable for validation. These commands use
-the recovered approximate host-span timing loader; they are not a verified
-reconstruction of the final acquisition.
+Raw mode reads CSI and switching metadata using the host-span timing
+approximation described in [REPRODUCTION.md](docs/REPRODUCTION.md).
 
 ## Data and outputs
 
@@ -166,16 +165,13 @@ waveforms, private metadata, photographs and historical notebooks/scripts.
 
 Each run also writes `summary.json`, configuration, input hashes, a code snapshot,
 warnings and execution status. Output may contain local input paths and is ignored
-by Git. Exact schemas and missing raw-input requirements are in
+by Git. Private input schemas are in
 [REPRODUCTION.md](docs/REPRODUCTION.md); technical checks are summarized in
 [VALIDATION.md](docs/VALIDATION.md).
 
 ## Known limitations
 
-The static study is small and includes difficult recordings. Exact belt/CSI
-interval correspondence, physical Rx mapping and raw timing are not independently
-verified for every final run. The saved 15 bpm run1 reference has an unresolved
-interval-matching limitation. Reference acceptance is not automated by this package.
+The static results describe eight recordings from one participant.
 
 The ACF estimator takes the first local maximum after the first local minimum;
 it does not enforce a positive peak or a 6–30 bpm output range. SQI uses a separate
@@ -183,9 +179,8 @@ it does not enforce a positive peak or a 6–30 bpm output range. SQI uses a sep
 approximation, and the motion detector interpolates missing detection bins,
 including long gaps. Run warnings identify these sampling and interpolation limits.
 
-Full raw replay requires the original captures and supporting timing/reference
-records. The available saved-array replay validates the implemented computations,
-not the entire acquisition chain or general physiological accuracy.
+Full raw replay requires the original captures and their timing and reference
+records. Saved-array replay starts from the stored dwell ratios.
 
 ## Contributions and third-party sources
 

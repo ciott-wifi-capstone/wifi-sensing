@@ -110,7 +110,7 @@
     "original": "recalculate_static_spatial_audit.py",
     "original_sha256": "704558f48eb8a9c4817bafd291c0e9f7be031c94cd2fe4bb4697bb1f40e1dc28",
     "supported_components": {
-      "src/wical/csi.py": "61eb9a04e3e09ca0f1bb9a8926c6dba675bf6f1224fb2ef8ee1a9f4a130a81a0",
+      "src/wical/csi.py": "ed7df4d1e5a4f1a687cf0c6ceb4721f7b522e0ddc6185a3895d252924e6d7580",
       "src/wical/static.py": "9f675e49a5c92410bded71ea87fc0d1eaab88754dfd34607cc385b5810603cf4",
       "scripts/analyze_static.py": "3cb9a40bbef8549e6f4d8f9585de6d891f164f677d37761dc697e83a14be7b59"
     },

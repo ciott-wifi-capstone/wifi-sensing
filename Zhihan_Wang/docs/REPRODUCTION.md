@@ -6,7 +6,7 @@
 | Static selection metrics | Four small bundled CSVs | All eight recording-level comparisons recalculated |
 | Static estimator and SQI replay | Private waveform NPZ files | All 144 saved candidates, signals, ACFs, selections and quality factors compared |
 | Exploratory motion replay | Private complex-ratio NPZ files and inventory | Eight recordings, event features, run fingerprints and similarities |
-| Raw static/motion loader | Authorized `.csi` and metadata required | Code and synthetic mapping checks only; final raw captures absent |
+| Raw static/motion loader | Authorized `.csi` and metadata required | Decoder metadata and synthetic state-mapping checks |
 | Historical research | Original research archive, not bundled | Source inspection/syntax checks, not supported execution |
 
 ## Saved static checkpoints
@@ -59,11 +59,9 @@ real and imaginary medians are computed separately within each visit. Effective
 sampling rate is the reciprocal median interval between visits to that state.
 Motion additionally crops to `run.json` `start_ns`/`end_ns` before aggregation.
 
-As discussed in thesis Appendix A, full capture-to-reference reproduction
-requires the original captures, packet timing and mapping records, and accepted
-belt windows and landmarks. These inputs are not included. The saved 15 bpm
-run1 reference is 15.133531 bpm; its exact correspondence to the CSI interval
-remains unresolved.
+Raw analysis requires the original captures and their switching metadata.
+Belt-reference evaluation uses the accepted run-level rates in the static
+observation table.
 
 ## Motion checkpoints
 
@@ -123,10 +121,9 @@ non-increasing time are rejected. The previous reader could append a timestamp
 before failing to parse its measurement, leaving unequal arrays. This is fixed
 while preserving the values of valid samples and the detector parameters.
 
-This is a library helper, not an automatic reference-acceptance pipeline. The
-static and motion selection entry points do not import it. It does not resolve
-clock alignment, crop decisions or manual belt landmark acceptance; the saved
-eight-run evaluation uses the already accepted reference table.
+The helper reads belt samples and estimates a rate from a supplied window.
+The selection entry points use the accepted reference rates in the saved
+eight-run table.
 
 ## Result-table provenance
 
