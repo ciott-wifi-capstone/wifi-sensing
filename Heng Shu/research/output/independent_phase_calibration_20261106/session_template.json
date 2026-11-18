@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "status": "template_not_captured",
+  "session_id": "",
+  "rx_epoch_id": "",
+  "operator_confirms_no_reinitialization": false,
+  "rx_xyz_m": [
+    3.65,
+    0,
+    null
+  ],
+  "rx_geometry_measured": false,
+  "frequency_hz": [
+    5211875000.0,
+    5213125000.0,
+    5214375000.0,
+    5215625000.0,
+    5216875000.0,
+    5218125000.0,
+    5219375000.0,
+    5220625000.0,
+    5221875000.0,
+    5223125000.0,
+    5224375000.0,
+    5225625000.0,
+    5226875000.0,
+    5228125000.0,
+    5229375000.0,
+    5230625000.0,
+    5231875000.0,
+    5233125000.0,
+    5234375000.0,
+    5235625000.0,
+    5236875000.0,
+    5238125000.0,
+    5239375000.0,
+    5240625000.0,
+    5241875000.0,
+    5243125000.0,
+    5244375000.0,
+    5245625000.0,
+    5246875000.0,
+    5248125000.0
+  ],
+  "state_map": {
+    "G1": [
+      1,
+      2,
+      3
+    ],
+    "G2": [
+      4,
+      5,
+      6
+    ],
+    "G3": [
+      7,
+      8,
+      9
+    ],
+    "G4": [
+      10,
+      11,
+      12
+    ],
+    "C1": [
+      1,
+      8,
+      6
+    ],
+    "C2": [
+      10,
+      8,
+      6
+    ]
+  },
+  "antenna_y_local_m": [
+    0.154,
+    0.126,
+    0.098,
+    0.07,
+    0.042,
+    0.014,
+    -0.014,
+    -0.042,
+    -0.07,
+    -0.098,
+    -0.126,
+    -0.154
+  ],
+  "records": [
+    {
+      "id": "CAL0_R1",
+      "position_id": "T0",
+      "role": "fit",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "CAL0_R2",
+      "position_id": "T0",
+      "role": "development",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "CAL0_R3",
+      "position_id": "T0",
+      "role": "holdout",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "VALn20_R1",
+      "position_id": "Tn20",
+      "role": "validation",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "VALn20_R2",
+      "position_id": "Tn20",
+      "role": "validation",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "VALn20_R3",
+      "position_id": "Tn20",
+      "role": "validation",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "RETn20_R1",
+      "position_id": "T0",
+      "role": "return",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "RETn20_R2",
+      "position_id": "T0",
+      "role": "return",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "RETn20_R3",
+      "position_id": "T0",
+      "role": "return",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "VALp20_R1",
+      "position_id": "Tp20",
+      "role": "validation",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "VALp20_R2",
+      "position_id": "Tp20",
+      "role": "validation",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "VALp20_R3",
+      "position_id": "Tp20",
+      "role": "validation",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "RETp20_R1",
+      "position_id": "T0",
+      "role": "return",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "RETp20_R2",
+      "position_id": "T0",
+      "role": "return",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    },
+    {
+      "id": "RETp20_R3",
+      "position_id": "T0",
+      "role": "return",
+      "expected_duration_s": 10,
+      "actual_tx_xyz_m": [
+        null,
+        null,
+        null
+      ],
+      "measured": false,
+      "rx_epoch_id": "",
+      "run_dir": "",
+      "notes": ""
+    }
+  ]
+}

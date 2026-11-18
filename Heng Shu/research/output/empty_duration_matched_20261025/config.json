@@ -1,0 +1,27 @@
+{
+  "pairings": {
+    "10s": [
+      "E1",
+      "E2"
+    ],
+    "15s": [
+      "E3",
+      "E4"
+    ]
+  },
+  "rounds": "All 3x3 pairs; equal ordinal run pairs additionally labeled, not simultaneous.",
+  "states": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "C1",
+    "C2"
+  ],
+  "comparisons": [
+    "full",
+    "equal_packet_count_max512"
+  ],
+  "session_relation": "Duration is not evidence of same session. E1/E3 same-session confirmed previously; E1/E2 and E3/E4 unconfirmed.",
+  "new_phase_fitting": false
+}

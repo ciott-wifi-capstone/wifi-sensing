@@ -1,0 +1,9 @@
+{
+  "input_labels_confirmed_by_operator": "Real New C and Real New D: run1 empty before, run2 stationary person at the indicated orange point, run3 empty after.",
+  "array": "Left TX (0,0), right RX array centre (3.65,0), local (3.65-X,-Y).",
+  "inference": "One occupied run per new batch, three 10 s runs each. Per-batch reference, no cross-epoch CSI or template pooling. QC and predictive rules inherited from New A and prior B/C.",
+  "contrast": "Compute D12, D23, D13, min(D12,D23)/D13, and four within-run quarter checks. These are effect descriptors, not independent participant repeats.",
+  "directions": "G2 is the 3-antenna baseline; G3 empirical-reference strongest peak is the A-derived test. Apply original raw and per-tone spatial MUSIC, full 3-degree angle grid, unmodified peak rules. Check post-empty R3 phase P90 <=15 degrees and >=80% tone coverage per chain pair. Also retain original q=3 per-state joint MUSIC and four-group noncoherent fusion. Freeze spectra and candidates before joining coordinates.",
+  "comparison": "Compare previously analysed New C with Real New C as two distinct visits to C. Repeated C is not the same as another within-record time block. The additional +/-45-degree layout markers are not the measured target labels.",
+  "negative_control": "Keep both background references, retain false candidates in the alternate empty record, matched shared 6/8 closure, all raw local peaks and counterexamples. No physical human MAE, ToF or coherent-12 gain without validated association and calibration."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "output/noncoherent_uniform_20261106/predict_uniform.py",
+    "source_sha256": "563070b67ae6821c5e33cb6a8cbfe8457fe991a3aedd11235b7e5863bf403611",
+    "candidate": "src/predict_uniform.py",
+    "candidate_sha256": "c51fd6762a0af8b208a76d74c6098ae13be6a1eef0e8dd8b3138266cb5e8acf0"
+  },
+  {
+    "source": "output/noncoherent_uniform_20261106/score_uniform.py",
+    "source_sha256": "e9f36d78903095f42ff0924b0bb591a96413be0c43c1a46cca610d95c86de412",
+    "candidate": "src/score_uniform.py",
+    "candidate_sha256": "73748941c1e2ac94a243a52a9801f9036de276f55fe59211e9a0099ca0353ba5"
+  },
+  {
+    "source": "output/noncoherent_uniform_20261106/protocol.json",
+    "source_sha256": "c0950b90875b4972deb05f1801bcce00f607b00098d68833bb261a497c244023",
+    "candidate": "configs/protocol.json",
+    "candidate_sha256": "c0950b90875b4972deb05f1801bcce00f607b00098d68833bb261a497c244023"
+  },
+  {
+    "source": "output/noncoherent_uniform_20261106/METHOD.md",
+    "source_sha256": "d0d205b8d4a7ff38b97f4b886740ff129bd6f34c8faebed6ea33eea000205397",
+    "candidate": "docs/METHOD.md",
+    "candidate_sha256": "b86daf7761ef5484dd9e8146a37c53a3d1d83895e0d37138084d55454e85297c"
+  },
+  {
+    "source": "output/noncoherent_uniform_20261106/INTERPRETATION.md",
+    "source_sha256": "ba4efc0d5f679cd133c1af1171751c8701fb2d56b4f547a603a84a4a764c365e",
+    "candidate": "docs/INTERPRETATION.md",
+    "candidate_sha256": "ba4efc0d5f679cd133c1af1171751c8701fb2d56b4f547a603a84a4a764c365e"
+  },
+  {
+    "source": "output/static_human_aoa_validation_20261101/geometry.json",
+    "source_sha256": "96db4aff9a2fbe825262e8d5a075ffe823f9d29fe47f6b8553cdb6e856a52e49",
+    "candidate": "src/array_geometry.py",
+    "candidate_sha256": "412d573f13d8ea117bd5cc630e619743d570ed632a7faff7052ba59ada0ad4a6"
+  }
+]
