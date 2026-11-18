@@ -21,8 +21,8 @@ Spearman correlation; thresholds and windows are unchanged. Tests include
 missing/duplicate observation coverage, row-order independence, no-event runs
 and undefined correlations for constant fingerprints.
 
-Full final-capture CSI replay, physical antenna mapping, manual belt landmark
-acceptance and hardware collection have not been independently validated.
+Full final-capture CSI replay, physical antenna mapping and manual belt landmark
+acceptance have not been independently validated.
 Saved-array agreement establishes computational reproducibility, not physiological
 accuracy or synchronized action labels. Input/time/quality warnings remain in
 each run's `warnings.csv`; a successful run is not a claim that these limitations

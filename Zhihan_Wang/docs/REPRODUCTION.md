@@ -7,7 +7,6 @@
 | Static estimator and SQI replay | Private waveform NPZ files | All 144 saved candidates, signals, ACFs, selections and quality factors compared |
 | Exploratory motion replay | Private complex-ratio NPZ files and inventory | Eight recordings, event features, run fingerprints and similarities |
 | Raw static/motion loader | Authorized `.csi` and metadata required | Code and synthetic mapping checks only; final raw captures absent |
-| Device collection | Matching controller/collection source missing | No hardware run, flashing or capture command provided |
 | Historical research | Original research archive, not bundled | Source inspection/syntax checks, not supported execution |
 
 ## Saved static checkpoints

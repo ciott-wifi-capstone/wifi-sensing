@@ -141,7 +141,7 @@ For the recovered raw-loader prototype, install the optional csiread dependency:
 
 Real final-run raw captures were unavailable for validation. These commands use
 the recovered approximate host-span timing loader; they are not a verified
-reconstruction of the final acquisition. No device-control command is provided.
+reconstruction of the final acquisition.
 
 ## Data and outputs
 
@@ -183,8 +183,6 @@ it does not enforce a positive peak or a 6–30 bpm output range. SQI uses a sep
 approximation, and the motion detector interpolates missing detection bins,
 including long gaps. Run warnings identify these sampling and interpolation limits.
 
-Matching Raspberry Pi GPIO/RF-switch control and collection source was not
-located. Acquisition and hardware operation are therefore outside this release.
 Full raw replay requires the original captures and supporting timing/reference
 records. The available saved-array replay validates the implemented computations,
 not the entire acquisition chain or general physiological accuracy.
