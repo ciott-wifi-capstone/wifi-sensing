@@ -1,0 +1,17 @@
+{
+  "states": ["G1", "G2", "G3", "G4", "C1", "C2"],
+  "pairs": ["Rx0/Rx1", "Rx0/Rx2", "Rx1/Rx2"],
+  "fixed": ["G1", "Rx1/Rx2"],
+  "ratio": "same-packet H_num/(H_den+1e-12), then median(real)+1j*median(imag) by dwell",
+  "sg_window_sec": 2.0,
+  "bnr_band_bpm": [6.0, 30.0],
+  "bnr_nfft": 8192,
+  "projection_angles": 100,
+  "bnr_threshold": 0.015,
+  "top_subcarriers": 3,
+  "highpass_cutoff_hz": 0.08,
+  "sqi_band_bpm": [5.0, 35.0],
+  "sqi_agreement_bpm": 4.0,
+  "acf_rule": "first local maximum after first local minimum, without positive-peak or bpm-band gate",
+  "note": "Audited policy record, not an algorithm-tuning interface. See tests/test_pipeline.py for consistency checks."
+}

@@ -1,0 +1,2 @@
+-r requirements.txt
+csiread==1.4.1
